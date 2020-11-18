@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300;400;500;600;700&display=swap');
+/*
+color palette
+https://coolors.co/f8c7cc-81a684-57886c-466060-0e0f19
+*/
+
+* {
+    font-family: 'Jura', sans-serif;
+    text-align: center;
+    color: #1A1A1D;
+}
+
+#comic-container img{
+    max-width: 600px;
+}
+
+#comic-container{
+    margin-top: 10px;
+}
+
+h2{
+    color: #F8C7CC;
+}
+h4{
+    color: #81A684;
+}
+body {
+    background-color: #466060;
+}
+
+
+
+.music-icons{
+    display: flex;
+    justify-content: space-between;
+    max-width: 200px;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+
+.footer{
+    text-align: center;
+    position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem; 
+  color: #0E0F19;
+}
+
+@media only screen and (max-width: 600px) {
+    h1 {
+        font-size: 2em;
+    }
+    .music-icons{
+        max-width: 400px;
+    }
+  }
